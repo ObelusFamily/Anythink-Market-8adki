@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
+1. Clone to repo into a file of your choice.
+2. Then, open the cloned repo in your IDE of choice.
+3. Open the terminal, and run `docker compose up` - this may take a while.
+4. Once that has completed, visit `http://localhost:3000/api/ping` - you should see some text that looks like `{"msg":"Pong! Seems like Everythink is working, great job!"}`.
+5. Then, visit `http://localhost:3001/register` and sign up!
+
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
